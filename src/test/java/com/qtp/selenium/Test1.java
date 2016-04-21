@@ -1,14 +1,8 @@
 package com.qtp.selenium;
 
-import java.net.MalformedURLException;
-import java.net.URL;
 
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Test1 {
@@ -19,6 +13,10 @@ public class Test1 {
  public void abc(){
 	System.out.println("****************************************|Printing abc*************************"); 
 	//System.out.println(b);
+	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+	 WebDriver driver =  new ChromeDriver();
+	driver.navigate().to("http://www.rediff.com/");
+	System.out.println("the title of page is "+driver.getTitle());
 	//Note always run this test from testng suite and not alone otherwise an exception will be thrown
 	
 /*	//Make the desired capability object as below

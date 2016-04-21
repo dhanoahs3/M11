@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.682" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="33.467" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -62,13 +62,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="abc" classname="com.qtp.selenium.Test1" time="0.029"/>
-  <testcase name="test3" classname="package1.Test3" time="0.003"/>
+  <testcase name="abc" classname="com.qtp.selenium.Test1" time="30.65"/>
+  <testcase name="test3" classname="package1.Test3" time="0.004"/>
   <testcase name="Class1_2" classname="com.qtp.selenium.Class2" time="0.003"/>
-  <testcase name="Class2_1" classname="com.qtp.selenium.Class2" time="0.001"/>
-  <testcase name="Class2_3" classname="com.qtp.selenium.Class2" time="0.002"/>
-  <testcase name="Class3_1" classname="com.qtp.selenium.Class3" time="0.002"/>
-  <testcase name="Class3_2" classname="com.qtp.selenium.Class3" time="0.003"/>
-  <testcase name="Class3_3" classname="com.qtp.selenium.Class3" time="0.012"/>
-  <testcase name="test2" classname="package1.Test2" time="0.002"/>
+  <testcase name="Class2_1" classname="com.qtp.selenium.Class2" time="0.025"/>
+  <testcase name="Class2_3" classname="com.qtp.selenium.Class2" time="0.001"/>
+  <testcase name="Class3_1" classname="com.qtp.selenium.Class3" time="0.011"/>
+  <testcase name="Class3_2" classname="com.qtp.selenium.Class3" time="0.002"/>
+  <testcase name="Class3_3" classname="com.qtp.selenium.Class3" time="0.003"/>
+  <testcase name="test2" classname="package1.Test2" time="0.007"/>
 </testsuite>
